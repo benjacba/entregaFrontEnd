@@ -53,6 +53,16 @@ body{
   }
 
   main{
+    .principal{
+      .carouselExampleAutoplaying{
+        .carrousel-control-prev{
+          color: purple !important;
+        }
+        .carrousel-control-next{
+          color: purple !important;
+        }
+      }
+    }
     .cartelera{
       padding-top: 50px;
       
