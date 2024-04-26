@@ -79,17 +79,16 @@ body{
         justify-items: center;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-        gap: 3rem 1rem;
+        gap: 3rem 0rem;
 
         img{
-          
           border: 1px solid purple;
         }
 
         a{
           width: 70%;
         }
-        a:hover{
+        img:hover{
           transform: scale(1.1);
           transition: 0.5s;
           cursor: pointer;
